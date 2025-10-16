@@ -4,9 +4,9 @@
   <br>
 </h1>
 
-[![GitHub Release](https://img.shields.io/github/v/release/Zulux91/eden-nightly-android?label=Current%20Release)](https://github.com/Zulux91/eden-nightly-android/releases/latest)
-[![GitHub Downloads](https://img.shields.io/github/downloads/Zulux91/eden-nightly-android/total?logo=github&label=GitHub%20Downloads)](https://github.com/Zulux91/eden-nightly-android/releases/latest)
-[![CI Build Status](https://github.com//Zulux91/eden-nightly-android/actions/workflows/build.yml/badge.svg)](https://github.com/Zulux91/eden-nightly-android/releases/latest)
+[![GitHub Release](https://img.shields.io/github/v/release/42es/eden-nightly-android?label=Current%20Release)](https://github.com/42es/eden-nightly-android/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/42es/eden-nightly-android/total?logo=github&label=GitHub%20Downloads)](https://github.com/42es/eden-nightly-android/releases/latest)
+[![CI Build Status](https://github.com/42es/eden-nightly-android/actions/workflows/build.yml/badge.svg)](https://github.com/42es/eden-nightly-android/releases/latest)
 
 > [!NOTE]  
 > This repo uses the code from pflyly's [eden-nightly repo](https://github.com/pflyly/eden-nightly).
