@@ -6,7 +6,7 @@ cd ./eden
 git apply ../patches/update.patch
 
 # silence annoying warnings
-git apply ../patches/warning.patch
+# git apply ../patches/warning.patch
 
 if [ "$TARGET" = "Coexist" ]; then
     # Change the App name and application ID to make it coexist with official build
