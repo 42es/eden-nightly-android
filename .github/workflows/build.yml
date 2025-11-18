@@ -77,7 +77,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo rm /var/lib/man-db/auto-update
           sudo apt-get update -y
           sudo apt-get install ccache glslang-tools libvulkan-dev python3-requests -y
           
@@ -136,7 +135,7 @@ jobs:
           echo "EOF" >> "${GITHUB_ENV}"
 
       - name: Release Eden
-        uses: softprops/action-gh-release@v2.4.1
+        uses: softprops/action-gh-release@v2.4.2
         with:
           name: "Eden Unofficial Nightly Release: ${{ env.COUNT }}"
           tag_name: "${{ env.TAG }}"
