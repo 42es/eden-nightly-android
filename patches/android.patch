@@ -51,7 +51,7 @@ index f28f4a9b7b..e031ce536c 100644
      if (package_id.find("dev.legacy.eden_emulator") != std::string::npos) {
 -        variant = "legacy";
 +        variant = "Legacy";
-     } else if (package_id.find("com.miHoYo.Yuanshen") != std::string::npos) {
+     } else if (package_id.find("dev.eden.Optimized") != std::string::npos) {
 -        variant = "optimized";
 +        variant = "Optimized";
 +    } else if (package_id.find("dev.eden.eden_nightly") != std::string::npos) {
